@@ -1,189 +1,214 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Arbenit Kamberi
+  label: MSc Computer Science
+  email: arbenit.kamberi@gmail.com
+  location: Zurich, Switzerland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Computer Science MSc student at ETH Zurich, focused on program verification,
+    automated reasoning, and computer vision (major in Secure and Reliable
+    Systems, minor in Computer Vision). My Bachelor's thesis built a Rust frontend
+    for the GenMC stateless model checker, and I have since worked with the same
+    group (ARV) on its consistency checker. I am currently a research intern at NUS's
+    VERSE Lab on LTL model checking, following a computer vision internship
+    on video-based industrial defect detection. My work has centred on reasoning
+    over concurrent and distributed behaviour, and on the compiler toolchains
+    verification runs through. High-performance computing is a side interest I follow
+    through coursework. What draws me to a problem is when
+    the theory has to hold up against a real workload.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: arbenitkamberi
     - network: LinkedIn
-      username: example
+      username: arbenit-kamberi
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+#    street: 2712 Broadway St
+    city: Zurich
+    region: Switzerland
+#    postalCode: CA 94115
+    countryCode: CH
 
   sections:
     Education:
-      - institution: University of Zurich
+      - institution: ETH Zurich
         location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        url: https://www.ethz.ch/
+        area: Major in Secure and Reliable Systems, Minor in Computer Vision
+        studyType: MSc, Computer Science
+        start_date: 2025
+        end_date: 2027
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
+          - Coursework concentrated on formal methods, program verification, and automated reasoning, taking essentially every course ETH offers in these areas.
+          - Minor in Computer Vision with further electives in high-performance and parallel computing.
+          - Student teaching assistant for the undergraduate Visual Computing course (computer vision and graphics).
+          - "Student activities: ETH CyberGroup, Shoqata Studenti."
+      - institution: ETH Zurich
         location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+        url: https://www.ethz.ch/
+        area: Computer Science
+        studyType: BSc, Computer Science
+        start_date: 2022
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Bachelor's thesis: \"A Rust Frontend for GenMC\", extending the GenMC stateless model checker to verify LLVM-IR compiled from Rust programs, advised by Prof. Dr. Michalis Kokologiannakis."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: VERSE Lab @ NUS
+        position: Research intern
+        location: NUS, Singapore
+        start_date: Jul 2026
+        #end_date: PRESENT
+        summary: 3-month research internship with Ilya Sergey, working on LTL model checking.
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Ongoing
+      - company: KNOW Center Research
+        position: Research intern
+        location: Graz, Austria
+        start_date: May 2026
+        end_date: Jul 2026
+        summary: Research internship working on computer vision for industrial defect detection.
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
+          - Redesigned a video-analysis pipeline for classifying anomalous elongated structures, replacing rigid filter/rescue logic with independent per-class geometric passes (thickness, curvature, orientation, convex hull).
+          - Built the perception layer on SAM 3.1 video segmentation on NVIDIA H100 GPUs, with amodal shape completion for occluded structures and hardened curvature estimation.
+          - Built a combined per-pass debug render grid of every pass's intermediate geometry.
+      - company: UBS AG
+        position: IT Project Manager
         location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: Dec 2021
+        end_date: Sep 2022
+        summary: Head of a project team within Wealth Management Research, SPoC
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Management and implementation of releases, end-of-life dismantling, technical migrations and full rollout of the new internal platform.
+          - All migrations were carried out successfully and on time through early planning and continuous consultation with the central
+            teams for the company-wide migrations.
+      - company: UBS AG
+        position: Software Engineer
+        location: Zurich, Switzerland
+        start_date: Aug 2020
+        end_date: Dec 2021
+        summary: Rollout internal beta of new platform for exploring market research publications with search and user preferences.
+        highlights:
+          - Implementation of anonymous user tracking (e.g. time spent on publication, search queries) to measure popularity of topics.
+          - Integration of new frontend with existing data management platform.
+      - company: UBS AG
+        position: Software Engineer in Training (EFZ)
+        location: Zurich, Switzerland
+        start_date: Aug 2016
+        end_date: Jul 2020
+        summary: First year general training, 3 years at Wealth Management Research.
+        highlights:
+          - Databases (Oracle), server backends (Java, Spring Boot), frontend (React, Freemarker) development
+          - Development on internal platforms for the publication and management of market analyses and forecasts, handling a large catalogue of publications across many content types, output formats and jurisdiction-aware publication rules.
+          - Integrated the publication pipeline with downstream platforms that consume this research data, keeping their feeds consistent as publications are added, updated, or withdrawn.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    #Awards:
+    #  - title: Nobel Prize in Physics
+    #    authors:
+    #      - "Royal Swedish Academy of Sciences"
+    #    date: 1921-11-01
+    #    awarder: Royal Swedish Academy of Sciences
+    #    url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #    summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    #Publications:
+    #  - title: Zur Elektrodynamik bewegter Körper
+    #    authors:
+    #      - Albert Einstein
+    #    publisher: Annalen der Physik
+    #    releaseDate: 1905-06-30
+    #    url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+    #    summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Interests:
+      - name: Formal Methods
+        icon: fa-solid fa-check-double
+        keywords: "Program verification, automated reasoning, model checking, theorem proving"
+      - name: Programming Languages and Compilers
+        icon: fa-solid fa-code
+        keywords: "Rust, LLVM, C/C++, Python, Java"
+      - name: Computer Vision
+        icon: fa-solid fa-camera
+        keywords: "Segmentation, video understanding, image processing"
+      - name: High-Performance Computing
+        icon: fa-solid fa-fast-forward
+        keywords: "Parallelism, GPU computing, systems performance"
+      
+    #Skills:
+    #  - name: Formal Methods &amp; Verification
+    #    icon: fa-solid fa-check-double
+    #    keywords: "Model checking, LTL, stateless model checking (GenMC), interactive theorem proving, Lean, weak memory models, LLVM-IR"
+    #  - name: Programming Languages
+    #    icon: fa-solid fa-code
+    #    keywords: "Rust, C/C++, Lean, Python, Java"
+    #  - name: Computer Vision
+    #    icon: fa-solid fa-camera
+    #    keywords: "Video segmentation, SAM, classical image processing, geometric analysis, PyTorch"
 
     Languages:
       - name: German
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "Fluent, C1"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Albanian
+        summary: "Native speaker"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
+
+    Certificates: # TODO: add certificate IDS
+      - name: Certificate in Advanced English (CAE)
+        #date: 2019-01-01
+        issuer: Cambridge University ; 19ACH0086527
         icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+        # 19ACH0086527
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: LTL model checking
+        summary: Research internship at NUS's VERSE Lab with Prof. Dr. Ilya Sergey.
+        start_date: 2026-07-01
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Ongoing work on LTL model checking with details to follow.
+
+      - name: Optimizing GenMC's consistency checker
+        summary: >
+          Follow-up project at ETH Zurich with Prof. Dr. Michalis Kokologiannakis on the
+          performance of the consistency checker at the core of the GenMC stateless model checker.
+        start_date: 2026-02-01
+        end_date: 2026-07-01
+        highlights:
+          - Optimized the C++ consistency-checker code that Kater generates from a weak-memory-model specification and that GenMC runs on every extension of an execution graph.
+          - Reworked the acyclicity checks with a graph traversal that also handles previously intractable inputs, less bookkeeping repeated on every check, and fast paths that replace expensive sub-checks.
+          - Improved the inclusion (view) checks through better handling of recursive relations and automatic sound rewrites that cut redundant computation.
+          - Measured a noticeable end-to-end speed-up across GenMC's benchmark suite.
+
+      #- name: Computer vision for industrial defect detection
+      #  summary: Research internship at Know Center Research GmbH, Graz.
+      #  start_date: 2026-06-01
+      #  end_date: 2026-07-01
+      #  highlights:
+      #    - Reworked a thermal-video defect-detection pipeline from a rigid filter/rescue chain into independent per-class geometric passes (thickness, curvature, orientation, convex hull) combined at the end.
+      #    - Built the perception layer on SAM 3.1 promptable video segmentation on NVIDIA H100 GPUs, with amodal spline infill for occluded masks.
+      #    - Hardened curvature estimation with Stentiford/Holt thinning, arc-length resampling, and a temporal persistence rules, and built a combined debug render grid as the main diagnostic tool.
+
+      - name: "A Rust frontend for GenMC (BSc thesis)"
+        summary: Bachelor's thesis at ETH Zurich, advised by Prof. Dr. Michalis Kokologiannakis.
+        start_date: 2025-02-01
+        end_date: 2025-08-01
+        highlights:
+          - Extended GenMC, a state-of-the-art stateless model checker for concurrent C/C++ under weak memory models, so that it can also verify concurrent Rust programs.
+          - Added support for LLVM-IR constructs emitted by the Rust compiler and provided custom implementations of Rust's standard-library concurrency APIs so they are intercepted by the checker.
+          - Verified concurrent data structures from the Crossbeam crate as a case study, cross-checking Rust tests against equivalent C programs.
 
     References:
-      - name: Professor John Doe
+      - name: Prof. Dr. Michalis Kokologiannakis | michalis.kokologiannakis@inf.ethz.ch
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: >
+          Mentor and advisor for my projects at ETH; Head of the ARV Lab at ETH.
+      - name: Prof. Dr. Ilya Sergey | ilya@nus.edu.sg
+        icon: fa-solid fa-laptop
+        reference: Advisor for my project at NUS; Head of the VERSE lab at NUS.
+      - name: Jörg Simon | jsimon@know-center.at
+        icon: fa-solid fa-laptop
+        reference: Advisor for my project at KNOW Center Research; Project Head at KNOW.

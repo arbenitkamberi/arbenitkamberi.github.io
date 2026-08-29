@@ -1,0 +1,59 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+#
+# Local override of al_folio_core's assets/css/main.scss. Keep the @use block in
+# sync with the gem on upgrades (`bundle exec al-folio upgrade overrides diff
+# assets/css/main.scss`); the site-specific tweaks live in the block at the end.
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ---------------------------------------------------------------------------
+   Site-specific overrides
+   --------------------------------------------------------------------------- */
+
+/* al_folio_cv renders every section entry as `ul.list-group > li.list-group-item`.
+   In Tailwind/bootstrap-compat mode those items keep a disc marker next to the
+   date badge. Drop the marker on the outer list only — nested `ul.items`
+   (course/highlight bullets) is left untouched. */
+.cv ul.list-group {
+  list-style: none;
+  //margin-left: 0;
+  //padding-left: 0;
+}
+
+.cv ul.list-group > li.list-group-item {
+  list-style: none;
+}
+
+:root #back-to-top {
+   height: 56px
+}

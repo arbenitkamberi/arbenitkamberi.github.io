@@ -201,7 +201,7 @@ The theme follows the visitor's system preference and can be toggled with the su
 
 ### The pages you get out of the box
 
-Publications are generated from your BibTeX bibliography, the CV from a single `cv.yml` or `resume.json`, and the people page from `_data`. Everything is content-driven — you edit data files, not templates.
+Publications are generated from your BibTeX bibliography and the CV from a single `cv.yml` or `resume.json`. Everything is content-driven — you edit data files, not templates.
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/publications/"><img src="readme_preview/publications.png" width=400></a>
@@ -209,7 +209,6 @@ Publications are generated from your BibTeX bibliography, the CV from a single `
 </p>
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/projects/"><img src="readme_preview/projects.png" width=400></a>
-  <a href="https://alshedivat.github.io/al-folio/people/"><img src="readme_preview/people.png" width=400></a>
 </p>
 
 Projects are one of four Jekyll `collections` the starter ships (`news`, `projects`, `books`, `teachings`). You can add your own for courses, talks, or anything else — see [Adding Collections](docs/CUSTOMIZE.md#adding-collections).

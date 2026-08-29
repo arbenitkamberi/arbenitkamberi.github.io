@@ -2,14 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses I was a student teaching assistant for.
 nav: true
 nav_order: 6
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+Every year I also lead a workshop on how to prepare for exams at ETH, tailored towards first semester students in Computer Science. The target group will receive an e-mail by the ETH study administration in October.
 
 {% include courses.liquid %}
