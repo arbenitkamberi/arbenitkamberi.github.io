@@ -165,11 +165,11 @@ cv:
         # 19ACH0086527
 
     Projects:
-      - name: LTL model checking
-        summary: Research internship at NUS's VERSE Lab with Prof. Dr. Ilya Sergey.
-        start_date: 2026-07-01
-        highlights:
-          - Ongoing work on LTL model checking with details to follow.
+      #- name: LTL model checking
+      #  summary: Research internship at NUS's VERSE Lab with Prof. Dr. Ilya Sergey.
+      #  start_date: 2026-07-01
+      #  highlights:
+      #    - Ongoing work on LTL model checking with details to follow.
 
       - name: Optimizing GenMC's consistency checker
         summary: >
