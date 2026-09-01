@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Currently just my BSc thesis, hope to add more in the future! In the meantime, have a look at the projects section instead.
 nav: true
 nav_order: 2

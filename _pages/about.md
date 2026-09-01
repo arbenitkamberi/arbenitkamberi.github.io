@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://ethz.ch/'>ETH Zurich</a>, currently visiting <a href='https://verse-lab.org'>VERSE Lab</a> @ <a href='https://www.nus.edu.sg'>NUS</a>.
 
@@ -44,3 +44,4 @@ neighbour to that work and to the GPU side of computer vision. What draws me to 
 problem is when the theory has to hold up against a real workload. My
 [projects]({{ '/projects/' | relative_url }}) and
 [CV]({{ '/cv/' | relative_url }}) have more detail.
+<br><br>
