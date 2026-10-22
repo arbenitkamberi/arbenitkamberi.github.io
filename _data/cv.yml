@@ -9,9 +9,10 @@ cv:
     automated reasoning, and computer vision (major in Secure and Reliable
     Systems, minor in Computer Vision). My Bachelor's thesis built a Rust frontend
     for the GenMC stateless model checker, and I have since worked with the same
-    group (ARV) on its consistency checker. I am currently a research intern at NUS's
-    VERSE Lab on LTL model checking, following a computer vision internship
-    on video-based industrial defect detection. My work has centred on reasoning
+    group (ARV) on its consistency checker. I recently completed a research
+    internship at the VERSE Lab, National University of Singapore, on verified and performant LTL
+    model checking, following a computer vision internship on video-based
+    industrial defect detection. My work has centred on reasoning
     over concurrent and distributed behaviour, and on the compiler toolchains
     verification runs through. High-performance computing is a side interest I follow
     through coursework. What draws me to a problem is when
@@ -55,20 +56,26 @@ cv:
           - "Bachelor's thesis: \"A Rust Frontend for GenMC\", extending the GenMC stateless model checker to verify LLVM-IR compiled from Rust programs, advised by Prof. Dr. Michalis Kokologiannakis."
 
     Experience:
-      - company: VERSE Lab @ NUS
-        position: Research intern
-        location: NUS, Singapore
+      - company: VERSE Lab @ National University of Singapore
+        position: Research intern - Verified LTL Model Checking with Fairness
+        location: Singapore
         start_date: Jul 2026
-        #end_date: PRESENT
-        summary: 3-month research internship with Ilya Sergey, working on LTL model checking.
+        end_date: Oct 2026
+        summary: >
+          A formally verified alternative to TLC, the model checker behind TLA+.
+          Prior verified checkers were orders of magnitude too slow to be used.
         highlights:
-          - Ongoing
+          - Built Lasso, a model checker proved sound and complete in Lean, reducing the trusted base to the proof assistant's kernel.
+          - Matched TLC, the TLA+ model checker, in performance on its own examples and ran an order of magnitude faster where fairness dominates, extensive comparison against seven model checkers.
+          - Removed the exponential cost of fairness assumptions by hoisting them out of the formula before automaton translation and discharging them during the search.
+          - Integrated the model checker into Veil, a Lean framework for distributed protocol verification.
       - company: KNOW Center Research
-        position: Research intern
+        position: Research intern - Video-based Industrial Defect Detection
         location: Graz, Austria
         start_date: May 2026
         end_date: Jul 2026
-        summary: Research internship working on computer vision for industrial defect detection.
+        summary: >
+          Detecting and separating two visually similar failure modes in thermal-camera video.
         highlights:
           - Redesigned a video-analysis pipeline for classifying anomalous elongated structures, replacing rigid filter/rescue logic with independent per-class geometric passes (thickness, curvature, orientation, convex hull).
           - Built the perception layer on SAM 3.1 video segmentation on NVIDIA H100 GPUs, with amodal shape completion for occluded structures and hardened curvature estimation.
@@ -208,7 +215,7 @@ cv:
           Mentor and advisor for my projects at ETH; Head of the ARV Lab at ETH.
       - name: Prof. Dr. Ilya Sergey | ilya@nus.edu.sg
         icon: fa-solid fa-laptop
-        reference: Advisor for my project at NUS; Head of the VERSE lab at NUS.
+        reference: Advisor for my project at the National University of Singapore; Head of its VERSE Lab.
       - name: Jörg Simon | jsimon@know-center.at
         icon: fa-solid fa-laptop
         reference: Advisor for my project at KNOW Center Research; Project Head at KNOW.

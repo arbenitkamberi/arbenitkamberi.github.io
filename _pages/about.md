@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://ethz.ch/'>ETH Zurich</a>, currently visiting <a href='https://verse-lab.org'>VERSE Lab</a> @ <a href='https://www.nus.edu.sg'>NUS</a>.
+subtitle: <a href='https://ethz.ch/'>ETH Zurich</a>, <a href='https://www.nus.edu.sg'>National University of Singapore</a>, <a href='https://www.know-center.at'>KNOW</a>
 
 profile:
   align: right
@@ -27,14 +27,13 @@ latest_posts:
 
 I'm a Computer Science master's student at [ETH Zurich](https://ethz.ch/), working on
 **program verification, automated reasoning, and computer vision**. My major is
-Secure and Reliable Systems and my minor is in Computer Vision. Within the major I
-take essentially every course ETH offers on verification and reasoning: mechanised PL metatheory, model checking, and deductive program and protocol verification.
+Secure and Reliable Systems and my minor is in Computer Vision. 
 
 My [Bachelor's thesis]({{ '/projects/' | relative_url }}) built a Rust frontend for
 [GenMC](https://github.com/MPI-SWS/genmc), a state-of-the-art stateless model checker
 for concurrent programs, so that it can verify Rust's compiled LLVM-IR,
-advised by Michalis Kokologiannakis. Recently, I worked with Michalis again on improving GenMC's consistency checker. I'm currently a research intern at the
-[VERSE Lab](https://verse-lab.org) at NUS, working with Ilya Sergey on LTL model
+advised by Michalis Kokologiannakis. Recently, I worked with Michalis again on improving GenMC's consistency checker. Most recently, I was a research intern at
+[NUS](https://www.nus.edu.sg), working with Ilya Sergey on verified LTL model
 checking. Before that, I spent a computer vision internship rebuilding a
 video-analysis pipeline for industrial defect detection.
 
