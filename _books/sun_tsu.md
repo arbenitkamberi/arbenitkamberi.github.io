@@ -3,7 +3,7 @@ layout: book-review
 title: The Art of War
 author: Sun Tzu
 cover: assets/img/book_covers/9781645472834.jpg
-categories: classics nonfiction philosophy history war politics business china
+categories: classics history war politics
 tags: china
 date: 2026-08-28
 released: 501 BC

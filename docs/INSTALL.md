@@ -218,10 +218,10 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
    - Set **Publish directory** to `_site`
 
 4. Netlify: Add the following two **environment variables**
-   - | Key            | Value                                                                                  |
-     | -------------- | -------------------------------------------------------------------------------------- |
-     | `JEKYLL_ENV`   | `production`                                                                           |
-     | `RUBY_VERSION` | set to the Ruby version found in `.github/workflows/deploy.yml` (for example, `3.3.5`) |
+   - | Key            | Value                                                                                                                                     |
+     | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+     | `JEKYLL_ENV`   | `production`                                                                                                                              |
+     | `RUBY_VERSION` | an exact Ruby version in the series `.github/workflows/deploy.yml` pins (for example, `3.3.13`); Netlify rejects a bare series like `3.3` |
 
 5. Netlify: Click **Deploy** and wait for the site to be published. If you want to use your own domain name, follow the steps in [this documentation](https://docs.netlify.com/domains-https/custom-domains/).
 

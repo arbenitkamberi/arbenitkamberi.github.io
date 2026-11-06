@@ -56,7 +56,5 @@ repo_sections:
     repos:
       - repo: arbenitkamberi/SkipList_verified
         note: Skip list with its invariants proved in Lean 4, built on Loom/Velvet.
-      - repo: arbenitkamberi/BRAL
-        note: Binary random access list in Lean 4.
       - repo: arbenitkamberi/OneNoteAPI_PDF
         note: Uploads a PDF to OneNote through the Graph API.
