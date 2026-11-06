@@ -1,7 +1,62 @@
+# Tiles for the /repositories/ page.
+#
+# Each entry renders a GitHub stats pin (linked to the repo) plus a caption row
+# carrying the repo name and a link per associated project page.
+#
+#   repo:     "owner/name" on GitHub. Required.
+#   projects: optional list of project-page slugs - the basename of a file in
+#             _projects/ without the .md, e.g. "04_bsc_thesis". Each one is
+#             resolved against site.projects at build time, so the button's
+#             label and URL follow the project page itself. A slug that does
+#             not resolve renders a visible marker on the page instead of a
+#             dead link, so a renamed project file cannot fail quietly.
+#   note:     optional one-liner under the tile. Useful where the repo's own
+#             GitHub description says what the project is but not what your
+#             part in it was.
+#
+# The pin image comes from external_services.github_readme_stats_url, a
+# third-party service. If it is unreachable the pin hides itself and the
+# caption row still carries every link, so no tile becomes a dead end.
+
+# Uncomment to also show a profile-stats card at the top of the page. Listing a
+# username here additionally drops the "owner/" prefix from that user's pins.
 #github_users:
 #  - arbenitkamberi
 
 repo_description_lines_max: 2
 
-github_repos:
-  - arbenitkamberi/SkipList_verified
+repo_sections:
+  - title: Main contributor
+    description: Projects I started and maintain.
+    repos:
+      - repo: verse-lab/Lasso
+        projects:
+          - 01_NUS
+        note: Fully verified yet fast LTL model checker through specialized fairness handling.
+
+  - title: Co-contributions
+    description: Established research tools I have contributed to.
+    repos:
+      - repo: verse-lab/veil
+        projects:
+          - 01_NUS
+        note: Integrated Lasso into it and extended Veil's syntax with LTL properties to support it.
+      - repo: MPI-SWS/genmc
+        projects:
+          - 04_bsc_thesis
+          - 03_semester_proj
+        note: Added a Rust compiler frontend, and later worked on the performance of the consistency checker.
+      - repo: MPI-SWS/kater
+        projects:
+          - 03_semester_proj
+        note: Optimized the consistency-checker C++ code that Kater generates from a memory-model specification.
+
+  - title: Just for fun
+    description: Smaller things I built out of curiosity.
+    repos:
+      - repo: arbenitkamberi/SkipList_verified
+        note: Skip list with its invariants proved in Lean 4, built on Loom/Velvet.
+      - repo: arbenitkamberi/BRAL
+        note: Binary random access list in Lean 4.
+      - repo: arbenitkamberi/OneNoteAPI_PDF
+        note: Uploads a PDF to OneNote through the Graph API.

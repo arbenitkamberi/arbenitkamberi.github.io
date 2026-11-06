@@ -30,8 +30,7 @@ from a rigid chain of filter and rescue operations into a set of independent
 (thickness, curvature, orientation, convex hull) and emitted its own local
 verdict. The verdicts were only combined at the end, where the two anomaly
 classes could be judged with separate criteria. Every stage kept a full history
-of each candidate's status and reason, which fed both debugging and a visual
-debug view.
+of each candidate's status and reason, which can be used in a visual debug view.
 
 **Amodal shape completion.** When two strands overlapped, the segmentation model
 returned a mask with two disconnected components for the same object. I added an

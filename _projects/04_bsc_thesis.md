@@ -18,8 +18,8 @@ can also verify Rust programs.
 
 Because GenMC operates on the LLVM-IR produced during compilation, the frontend
 adds support for LLVM-IR constructs emitted by the Rust compiler and provides
-custom implementations of Rust's standard-library concurrency APIs so they can be
-intercepted by the checker. Rust tests were run and cross-checked against the
+*custom* implementations of Rust's standard-library concurrency APIs (std::thread and others) so they can be
+intercepted by the model checker. Rust tests were run and cross-checked against the
 equivalent C programs, and as a case study several concurrent data structures
 from [Crossbeam](https://docs.rs/crossbeam/latest/crossbeam/), a popular open-source Rust crate, were verified.
 
