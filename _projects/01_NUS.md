@@ -68,7 +68,8 @@ to the assumptions a user wrote, only then does it commit to the option that
 could still repair it, and recurse.
 For standard fairness notions like weak and strong fairness, at most one
 option could ever repair it, so it never branches at all, keeping the check polynomial
-in $$n$$. For the earlier example of $$n=22$$, **Lasso** finishes it in $$< 50$$ ms.
+in $$n$$. For the earlier example of $$n=22$$, **Lasso** finishes it in $$< 50$$ ms
+while most tools timeout in $$10$$ min and TLC runs into a `java.lang.OutOfMemory` exception at $$4$$ GB.
 
 **Verification.** Every component (formula rewriting, translation
 through very weak alternating automata, SCC enumeration, prune) is

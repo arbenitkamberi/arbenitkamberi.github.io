@@ -44,11 +44,11 @@ repo_sections:
       - repo: MPI-SWS/genmc
         projects:
           - 04_bsc_thesis
-          - 03_semester_proj
+          - 03_kater
         note: Added a Rust compiler frontend, and later worked on the performance of the consistency checker.
       - repo: MPI-SWS/kater
         projects:
-          - 03_semester_proj
+          - 03_kater
         note: Optimized the consistency-checker C++ code that Kater generates from a memory-model specification.
 
   - title: Just for fun
