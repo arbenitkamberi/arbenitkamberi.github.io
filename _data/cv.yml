@@ -5,18 +5,19 @@ cv:
   location: Zurich, Switzerland
   image: ""
   summary: >
-    Computer Science MSc student at ETH Zurich, focused on program verification,
-    automated reasoning, and computer vision (major in Secure and Reliable
-    Systems, minor in Computer Vision). My Bachelor's thesis built a Rust frontend
-    for the GenMC stateless model checker, and I have since worked with the same
-    group (ARV) on its consistency checker. I recently completed a research
-    internship at the VERSE Lab, National University of Singapore, on verified and performant LTL
-    model checking, following a computer vision internship on video-based
-    industrial defect detection. My work has centred on reasoning
+    Computer Science MSc student at ETH Zurich, focused on formal methods, program verification,
+    compilation and computer vision. 
+    I built a Rust compiler frontend for the GenMC model checker, and have since worked
+    with the same group on the performance of GenMC's consistency checker.
+    During my research internship at the National University of Singapore I built Lasso,
+    a highly performant yet fully verified LTL model checker in Lean.
+    Before that, I spent a computer vision internship rebuilding a video-based industrial
+    defect detection pipeline.
+
+    My work has centred on reasoning 
     over concurrent and distributed behaviour, and on the compiler toolchains
-    verification runs through. High-performance computing is a side interest I follow
-    through coursework. What draws me to a problem is when
-    the theory has to hold up against a real workload.
+    verification runs through. High-performance computing is a side interest I follow. 
+    What draws me to a problem is when the theory has to hold up against a real workload.
 
   social_networks:
     - network: GitHub
@@ -41,9 +42,10 @@ cv:
         start_date: 2025
         end_date: 2027
         highlights:
-          - Coursework concentrated on formal methods, program verification, and automated reasoning, taking essentially every course ETH offers in these areas.
+          - Coursework concentrated on formal methods, program verification, and compilation, taking essentially every course ETH offers in these areas.
           - Minor in Computer Vision with further electives in high-performance and parallel computing.
           - Student teaching assistant for the undergraduate Visual Computing course (computer vision and graphics).
+          - "Project: Optimizing GenMC's consistency checker"
           - "Student activities: ETH CyberGroup, Shoqata Studenti."
       - institution: ETH Zurich
         location: Zurich, Switzerland
@@ -53,7 +55,7 @@ cv:
         start_date: 2022
         end_date: 2025
         highlights:
-          - "Bachelor's thesis: \"A Rust Frontend for GenMC\", extending the GenMC stateless model checker to verify LLVM-IR compiled from Rust programs, advised by Prof. Dr. Michalis Kokologiannakis."
+          - "Thesis: \"A Rust Frontend for GenMC\", extending the GenMC stateless model checker to verify LLVM-IR compiled from Rust programs, advised by Prof. Dr. Michalis Kokologiannakis."
 
     Experience:
       - company: VERSE Lab @ National University of Singapore
@@ -65,7 +67,7 @@ cv:
           A formally verified alternative to TLC, the model checker behind TLA+.
           Prior verified checkers were orders of magnitude too slow to be used.
         highlights:
-          - Built Lasso, a model checker proved sound and complete in Lean, reducing the trusted base to the proof assistant's kernel.
+          - Built Lasso, a fast LTL model checker proved sound and complete in Lean.
           - Matched TLC, the TLA+ model checker, in performance on its own examples and ran an order of magnitude faster where fairness dominates, extensive comparison against seven model checkers.
           - Removed the exponential cost of fairness assumptions by hoisting them out of the formula before automaton translation and discharging them during the search.
           - Integrated the model checker into Veil, a Lean framework for distributed protocol verification.
@@ -93,22 +95,14 @@ cv:
       - company: UBS AG
         position: Software Engineer
         location: Zurich, Switzerland
-        start_date: Aug 2020
-        end_date: Dec 2021
-        summary: Rollout internal beta of new platform for exploring market research publications with search and user preferences.
-        highlights:
-          - Implementation of anonymous user tracking (e.g. time spent on publication, search queries) to measure popularity of topics.
-          - Integration of new frontend with existing data management platform.
-      - company: UBS AG
-        position: Software Engineer in Training (EFZ)
-        location: Zurich, Switzerland
         start_date: Aug 2016
-        end_date: Jul 2020
-        summary: First year general training, 3 years at Wealth Management Research.
+        end_date: Dec 2021
+        summary: At Wealth Management Research. As an apprentice (EFZ) until July 2020, then full time afterwards.
         highlights:
-          - Databases (Oracle), server backends (Java, Spring Boot), frontend (React, Freemarker) development
           - Development on internal platforms for the publication and management of market analyses and forecasts, handling a large catalogue of publications across many content types, output formats and jurisdiction-aware publication rules.
-          - Integrated the publication pipeline with downstream platforms that consume this research data, keeping their feeds consistent as publications are added, updated, or withdrawn.
+          - Integrated the publication pipeline with downstream platforms that consume this data, keeping systems consistent.
+          - Development of a completely new platform for exploring market research publications with search features, personalization and user interest settings.
+          - Databases (Oracle, Postgres), server backend (Java, Spring Boot), and frontend (React, Freemarker) development.
 
     #Awards:
     #  - title: Nobel Prize in Physics
@@ -131,7 +125,7 @@ cv:
     Interests:
       - name: Formal Methods
         icon: fa-solid fa-check-double
-        keywords: "Program verification, automated reasoning, model checking, theorem proving"
+        keywords: "Program verification, automated reasoning, model checking, theorem proving, Lean, Rocq"
       - name: Programming Languages and Compilers
         icon: fa-solid fa-code
         keywords: "Rust, LLVM, C/C++, Python, Java"
@@ -140,7 +134,7 @@ cv:
         keywords: "Segmentation, video understanding, image processing"
       - name: High-Performance Computing
         icon: fa-solid fa-fast-forward
-        keywords: "Parallelism, GPU computing, systems performance"
+        keywords: "Parallelism, GPU computing"
       
     #Skills:
     #  - name: Formal Methods &amp; Verification

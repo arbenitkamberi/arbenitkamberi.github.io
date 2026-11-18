@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://ethz.ch/'>ETH Zurich</a>, <a href='https://www.nus.edu.sg'>National University of Singapore</a>, <a href='https://www.know-center.at'>KNOW</a>
+subtitle: <a href='https://ethz.ch/'>ETH Zurich</a>
 
 profile:
   align: right
@@ -26,21 +26,21 @@ latest_posts:
 ---
 
 I'm a Computer Science master's student at [ETH Zurich](https://ethz.ch/), working on
-**program verification, automated reasoning, and computer vision**. My major is
-Secure and Reliable Systems and my minor is in Computer Vision. 
+**formal methods, program verification, compilation and computer vision**. 
 
-My [Bachelor's thesis]({{ '/projects/' | relative_url }}) built a Rust frontend for
+My [Bachelor's thesis]({{ '/projects/04_bsc_thesis/' | relative_url }}) built a Rust compiler frontend for
 [GenMC](https://github.com/MPI-SWS/genmc), a state-of-the-art stateless model checker
 for concurrent programs, so that it can verify Rust's compiled LLVM-IR,
-advised by Michalis Kokologiannakis. Recently, I worked with Michalis again on improving GenMC's consistency checker. Most recently, I was a research intern at
-[NUS](https://www.nus.edu.sg), working with Ilya Sergey on verified LTL model
-checking. Before that, I spent a computer vision internship rebuilding a
-video-analysis pipeline for industrial defect detection.
+advised by Michalis Kokologiannakis. Recently, I worked with Michalis again on improving the performance of GenMC's [consistency checker]({{ '/projects/03_kater/' | relative_url }}). 
+Most recently, I was a research intern at [National University of Singapore](https://www.nus.edu.sg), 
+where I developed [Lasso]({{ '/projects/01_NUS/' | relative_url }}), a fully verified yet highly performant LTL model checker in Lean,
+advised by Ilya Sergey.
+Before that, I spent a computer vision internship at [KNOW](https://www.know-center.at/en/) rebuilding a
+[video-analysis pipeline]({{ '/projects/02_KNOW/' | relative_url }}) for industrial defect detection.
 
 I was also a teaching assistant for ETH's undergraduate Visual Computing course.
-My work has centred on reasoning over concurrent and distributed behaviour, and on the compiler toolchains verification runs through. High-performance computing is a side interest I follow alongside, a natural
-neighbour to that work and to the GPU side of computer vision. What draws me to a
-problem is when the theory has to hold up against a real workload. My
+My work has centred on reasoning over concurrent and distributed behaviour, and on the compiler toolchains verification runs through. High-performance computing is a side interest I follow, a neighbour to that work and to the GPU side of computer vision.
+What draws me to a problem is when the theory has to hold up against a real workload. My
 [projects]({{ '/projects/' | relative_url }}) and
 [CV]({{ '/cv/' | relative_url }}) have more detail.
 <br><br>
