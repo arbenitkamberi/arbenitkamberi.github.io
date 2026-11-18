@@ -8,9 +8,9 @@ category: work
 related_publications: false
 ---
 
-A project at the Department of Computer Science, ETH Zürich, again advised by
+A project at the Department of Computer Science, ETH Zurich, again advised by
 Prof. Dr. Michalis Kokologiannakis, following on from my
-[Bachelor's thesis]({{ '/projects/' | relative_url }}).
+[Bachelor's thesis]({{ '/projects/04_bsc_thesis/' | relative_url }}).
 
 [GenMC](https://github.com/MPI-SWS/genmc) is a stateless model checker for
 concurrent programs that is parametric in the weak memory model it assumes. Every

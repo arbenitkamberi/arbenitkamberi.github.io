@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-My Bachelor thesis at the Department of Computer Science, ETH Zürich, advised by
+My Bachelor thesis at the Department of Computer Science, ETH Zurich, advised by
 Prof. Dr. Michalis Kokologiannakis.
 
 Stateless model checkers are widely used for verifying concurrent programs, but

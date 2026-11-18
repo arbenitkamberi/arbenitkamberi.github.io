@@ -69,7 +69,7 @@ cv:
         highlights:
           - Built Lasso, a fast LTL model checker proved sound and complete in Lean.
           - Matched TLC, the TLA+ model checker, in performance on its own examples and ran an order of magnitude faster where fairness dominates, extensive comparison against seven model checkers.
-          - Removed the exponential cost of fairness assumptions by hoisting them out of the formula before automaton translation and discharging them during the search.
+          - Removed the exponential cost of common fairness assumptions by hoisting them out of the formula before automaton translation and discharging them during the search.
           - Integrated the model checker into Veil, a Lean framework for distributed protocol verification.
       - company: KNOW Center Research
         position: Research intern - Video-based Industrial Defect Detection
@@ -192,7 +192,7 @@ cv:
       #    - Built the perception layer on SAM 3.1 promptable video segmentation on NVIDIA H100 GPUs, with amodal spline infill for occluded masks.
       #    - Hardened curvature estimation with Stentiford/Holt thinning, arc-length resampling, and a temporal persistence rules, and built a combined debug render grid as the main diagnostic tool.
 
-      - name: "A Rust frontend for GenMC (BSc thesis)"
+      - name: "A Rust Frontend for GenMC (BSc thesis)"
         summary: Bachelor's thesis at ETH Zurich, advised by Prof. Dr. Michalis Kokologiannakis.
         start_date: 2025-02-01
         end_date: 2025-08-01

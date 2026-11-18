@@ -32,7 +32,7 @@ My [Bachelor's thesis]({{ '/projects/04_bsc_thesis/' | relative_url }}) built a 
 [GenMC](https://github.com/MPI-SWS/genmc), a state-of-the-art stateless model checker
 for concurrent programs, so that it can verify Rust's compiled LLVM-IR,
 advised by Michalis Kokologiannakis. Recently, I worked with Michalis again on improving the performance of GenMC's [consistency checker]({{ '/projects/03_kater/' | relative_url }}).
-Most recently, I was a research intern at [National University of Singapore](https://www.nus.edu.sg),
+Most recently, I was a research intern at the [National University of Singapore](https://www.nus.edu.sg),
 where I developed [Lasso]({{ '/projects/01_NUS/' | relative_url }}), a fully verified yet highly performant LTL model checker in Lean,
 advised by Ilya Sergey.
 Before that, I spent a computer vision internship at [KNOW](https://www.know-center.at/en/) rebuilding a
