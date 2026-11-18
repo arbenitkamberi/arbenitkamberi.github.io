@@ -15,6 +15,7 @@ An exercise session is structured into a short repetition of this weeks topics, 
 The following is an overview of topics covered in the two halves of this rather large course.
 
 # Computer Vision
+
 - Sampling and aliasing
 - Image segmentation
 - Convolution and Filtering
@@ -30,6 +31,7 @@ The following is an overview of topics covered in the two halves of this rather 
 - Convolutional neural networks
 
 # Computer Graphics
+
 - Graphics pipeline
 - Light and Color spaces
 - Projections and homogeneous coordinates

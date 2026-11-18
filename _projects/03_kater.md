@@ -26,8 +26,8 @@ checks that the generated consistency checker is built from. On the acyclicity s
 includes reworking how the graph traversal is carried out so that it also
 handles cases that previously pushed the consistency checker past its limits and caused overflows, reducing the
 bookkeeping the traversal has to redo on every check, and recognising when
-an expensive check can be replaced by a much cheaper argument based on simple counting of events. 
+an expensive check can be replaced by a much cheaper argument based on simple counting of events.
 On the inclusion side it includes better handling of recursively defined relations and automatic sound transformations to reduce the required computation. These changes have translated into a noticeable speed-up for GenMC.
 
-A full paper with the details of each optimization and the accompanying evaluation is submitted. 
+A full paper with the details of each optimization and the accompanying evaluation is submitted.
 I will expand this page with more specifics once it is published.

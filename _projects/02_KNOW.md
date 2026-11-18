@@ -26,7 +26,7 @@ geometric passes downstream decided what was real.
 
 **From filter/rescue to independent passes.** I reworked the core methodology
 from a rigid chain of filter and rescue operations into a set of independent
-*passes*. Each pass measured its own geometric properties of a candidate
+_passes_. Each pass measured its own geometric properties of a candidate
 (thickness, curvature, orientation, convex hull) and emitted its own local
 verdict. The verdicts were only combined at the end, where the two anomaly
 classes could be judged with separate criteria. Every stage kept a full history
@@ -44,14 +44,14 @@ fragment. Recent amodal-segmentation research was not yet usable in this case, b
 **More robust curvature estimation.** The curvature pass was rewritten in three
 places:
 
-- *Thinning.* The Zhang–Suen skeleton was prone to spur "hairs" and staircase
+- _Thinning._ The Zhang–Suen skeleton was prone to spur "hairs" and staircase
   artefacts. Adding pre- and post-processing steps from the Stentiford and Holt
-  algorithms (*Algorithms for Image Processing and Computer Vision*, Ch. 6) removed them cleanly.
-- *Turning-angle computation.* Rasterised skeletons zig-zag one pixel at a time,
+  algorithms (_Algorithms for Image Processing and Computer Vision_, Ch. 6) removed them cleanly.
+- _Turning-angle computation._ Rasterised skeletons zig-zag one pixel at a time,
   which inflated total turning angle enormously (a near-vertical line measured
   ~52°). Arc-length resampling followed by block averaging over a fixed physical
   window removed the rasterisation bias.
-- *Temporal decision rule.* Made it such that the pass sampled every fifth frame and reported a
+- _Temporal decision rule._ Made it such that the pass sampled every fifth frame and reported a
   deformation only when it persisted across several consecutive samples,
   logging the frame range.
 

@@ -6,7 +6,7 @@ cv:
   image: ""
   summary: >
     Computer Science MSc student at ETH Zurich, focused on formal methods, program verification,
-    compilation and computer vision. 
+    compilation and computer vision.
     I built a Rust compiler frontend for the GenMC model checker, and have since worked
     with the same group on the performance of GenMC's consistency checker.
     During my research internship at the National University of Singapore I built Lasso,
@@ -14,9 +14,9 @@ cv:
     Before that, I spent a computer vision internship rebuilding a video-based industrial
     defect detection pipeline.
 
-    My work has centred on reasoning 
+    My work has centred on reasoning
     over concurrent and distributed behaviour, and on the compiler toolchains
-    verification runs through. High-performance computing is a side interest I follow. 
+    verification runs through. High-performance computing is a side interest I follow.
     What draws me to a problem is when the theory has to hold up against a real workload.
 
   social_networks:
@@ -26,10 +26,10 @@ cv:
       username: arbenit-kamberi
 
   address:
-#    street: 2712 Broadway St
+    #    street: 2712 Broadway St
     city: Zurich
     region: Switzerland
-#    postalCode: CA 94115
+    #    postalCode: CA 94115
     countryCode: CH
 
   sections:
@@ -55,7 +55,7 @@ cv:
         start_date: 2022
         end_date: 2025
         highlights:
-          - "Thesis: \"A Rust Frontend for GenMC\", extending the GenMC stateless model checker to verify LLVM-IR compiled from Rust programs, advised by Prof. Dr. Michalis Kokologiannakis."
+          - 'Thesis: "A Rust Frontend for GenMC", extending the GenMC stateless model checker to verify LLVM-IR compiled from Rust programs, advised by Prof. Dr. Michalis Kokologiannakis.'
 
     Experience:
       - company: VERSE Lab @ National University of Singapore
@@ -135,7 +135,7 @@ cv:
       - name: High-Performance Computing
         icon: fa-solid fa-fast-forward
         keywords: "Parallelism, GPU computing"
-      
+
     #Skills:
     #  - name: Formal Methods &amp; Verification
     #    icon: fa-solid fa-check-double
@@ -156,7 +156,6 @@ cv:
 
       - name: Albanian
         summary: "Native speaker"
-
 
     Certificates: # TODO: add certificate IDS
       - name: Certificate in Advanced English (CAE)
